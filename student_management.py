@@ -1,3 +1,10 @@
+print("===== Student Management System =====")
+print("1. Add Student")
+print("2. Display Student")
+print("3. Search Student")
+print("4. Delete Student")
+print("5. Exit")
+
 choice = int(input("Enter your choice: "))
 
 if choice == 1:
