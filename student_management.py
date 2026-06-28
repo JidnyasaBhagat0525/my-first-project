@@ -8,19 +8,22 @@ print("5. Exit")
 choice = int(input("Enter your choice: "))
 
 if choice == 1:
-  print("Add Student Selected")
+  name = input("Enter Student Name: ")
+  print(name, "added successfully.")
 
 elif choice == 2:
-    print("Display Student Selected")
-
+  print("Displaying student details...")
+    
 elif choice == 3:
-    print("Search Student Selected")
+  name = input("Enter Student Name to Search: ")
+  print(name, "found.")
 
 elif choice == 4:
-    print("Delete Student Selected")
+  name = input("Enter Student Name to Delete: ")
+  print(name, "Delete Successfully")
 
 elif choice == 5:
-    print("Thank You")
+    print("Thank You!")
 
 else:
   print("Invalid Choice")
